@@ -87,13 +87,30 @@
             }
             
            
-            .name {
-                margin: 20px 70px 0px 130px;
+            .mename {
+                color: black;
                 font-family: 'Source Sans Pro', sans-serif;
-                font-size: 22px;
-                padding-top: 55px;
+                font-size: 23px;
+                align-content: center;
+                padding: 10px 0px 0px 100px;
             }
             
+            .line {
+                margin-top: -20px;
+            }
+            
+            .womename {
+                color: black;
+                font-family: 'Source Sans Pro', sans-serif;
+                font-size: 23px;
+                align-content: center;
+                padding: 0px 0px 0px 1170px;
+                
+            }
+            
+            .womenline {
+                padding-top: 5px;
+            }
             .next {
                 font-family: 'Source Sans Pro', sans-serif;
                 font-size: 22px;
@@ -172,10 +189,9 @@
             .one {
               background-color: #f5f5dc;
                 background-size: cover;
-                border: 30px;
-                border-color: #f5f5dc;
-                border-radius: 10px;
-                width: 200px;
+                 border: 5px solid dimgrey ;
+                 border-radius: 5px;
+                width: 300px;
                 height: 13opx;
                 }
             
@@ -183,7 +199,7 @@
                  background-color: #f5f5dc;
                 border: 1px solid azure;
                 border-radius: 10px;
-                width: 200px;
+                width: 300px;
                 height: 13opx;
                 
                   
@@ -194,7 +210,7 @@
                 background-size: cover;
                 border: 10px solid white;
                 border-radius: 10px;
-                width: 200px;
+                width: 300px;
                 height: 13opx;
             }
             
@@ -203,7 +219,7 @@
                 background-size: cover;
                 border: 10px solid white;
                 border-radius: 10px;
-                width: 200px;
+                width: 300px;
                 height: 13opx;
             }
             
@@ -212,7 +228,7 @@
                 background-size: cover;
                 border: 10px solid white;
                 border-radius: 10px;
-                width: 200px;
+                width: 300px;
                 height: 13opx;
             }
             
@@ -221,27 +237,35 @@
                 background-size: cover;
                  border: 10px solid white;
                 border-radius: 10px;
-                width: 200px;
+                width: 300px;
                 height: 13opx;
             }
             
             .top_photo, .bottom_photo {
-                font-family: 'Source Sans Pro', sans-serif;                             font-size: 19px;
+                font-family: 'Source Sans Pro', sans-serif;                             font-size: 25px;
+                
                
             }
             
-            .top_photo &gt; {
-                transform: rotate(90deg);
+            .top_photo {
+                padding-left: 20px;
+            }
+            
+            .great {
+               -webkit-transform: rotate(180deg);
+               -moz-transform: rotate(180deg);
+               -o-transform: rotate(90deg);
             }
             
             .bottom_photo {
-                 margin:  ;
+                 margin: 50px 0px 0px 0px;
                 padding: ;
                 
             }
                 #about {
                     background: url("assets/backgrounds/about.jpg");
                     background-size: cover;
+                    margin-top: 140px;
                 }
             
             #tweet {
@@ -254,7 +278,7 @@
             }
             
             #tweet img {
-                padding: 0px 10px;
+                padding: 0px 10px 0px 0px;
             }
             
             .product_name {
@@ -266,9 +290,32 @@
                color: #888;
            }
             
-            .one img, .two img, .three img, .four img, .five img {
-                padding: 0px 0px 0px 50px
+            .one img{
+                padding: 45px 75px;
             }
+            
+            .two img{
+                padding: 25px 85px;
+            }
+            
+            .three img{
+                padding: 35px 75px;
+            }
+            
+            .four img{
+                padding: 50px 55px;
+            }
+            
+            .five img{
+                padding: 90px 75px;
+            }
+            
+            .six img{
+                padding: 45px 70px;
+            }
+            
+          
+            
         </style>
     </head>
     
@@ -326,7 +373,10 @@
                     
             <div id="men">
                 
-               <span class="men_up"><span class="name">MEN</span><hr width="70%"></span>
+               <div id="mentop">
+                   <div class="mename">MEN</div>
+                   <div class="line"><hr width= "70%" ></div>
+                </div>
                 <div class="next">
                     <p>1 / 5 <br>  <b>&lt; </b>&nbsp; <b> &gt; </b></p>
                 </div>
@@ -334,7 +384,7 @@
                 <div class="men_photo">
                     
                 <div class="one">
-                    <div class="top_photo">SIZE &gt;</div>
+                    <div class="top_photo">SIZE <span class="great"> &gt; </span></div>
                     <img src="assets/products/tshirt.png">
                     <div class="bottom_photo">
                         <div class="Product_name">T-SHIRT</div>
@@ -344,7 +394,7 @@
                     </div>
                     
                 <div class="two">
-                 <div class="top_photo">SIZE &gt;</div>
+                 <div class="top_photo">SIZE  <span class="great">&gt; </span></div>
                     <img src="assets/products/pants.png">
                     <div class="bottom_photo">
                         <div class="Product_name">PANTS FORCLAZ</div>
@@ -369,7 +419,11 @@
             
             <div id="women">
                 
-                 <span class="women_up"><hr width="70%"><span class="name">WOMEN</span>
+                 <div id="womentop">
+                   
+                   <div class="womenline"><hr width= "70%" ></div>
+                     <div class="womename">WOMEN</div>
+                </div>
                 <div class="women_next">
                     <p>1 / 5 <br>  <b>&lt; </b>&nbsp; <b> &gt; </b></p>
                 </div>
@@ -377,7 +431,7 @@
                 <div class="women_photo">
                     
                 <div class="four">
-                    <div class="top_photo">SIZE &gt;</div>
+                    <div class="top_photo">SIZE <span class="great"> &gt; </span></div>
                     <img src="assets/products/giacket.png">
                     <div class="bottom_photo">
                         <div class="Product_name">GIACKET</div>
@@ -387,7 +441,7 @@
                     </div>
                     
                 <div class="five">
-                 <div class="top_photo">SIZE &gt;</div>
+                 <div class="top_photo">SIZE <span class="great"> &gt;   </span></div>
                     <img src="assets/products/trekkingshoes.png">
                     <div class="bottom_photo">
                         <div class="Product_name">TREKKING SHOES</div>
@@ -397,7 +451,7 @@
                     </div>
                     
                  <div class="six">
-                     <div class="top_photo">SIZE &gt;</div>
+                     <div class="top_photo">SIZE <span class="great">&gt; </span></div>
                     <img src="assets/products/tshirt_ladies.png">
                     <div class="bottom_photo">
                         <div class="Product_name">T-SHIRT</div>
@@ -409,7 +463,6 @@
                 
             </div>
                 
-                <br><br>
             
             <div id="about">
                 
