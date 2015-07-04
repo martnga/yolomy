@@ -1,0 +1,307 @@
+#top {
+                background-image: url("../assets/backgrounds/hero.jpg");
+                background-size:  cover;
+            }
+            
+             a { 
+                 font-family: 'Open Sans', sans-serif;
+                font-size: 17px;
+                text-decoration: none;
+                
+            }
+            
+             #top a {
+                 position: relative;
+                 color: white;
+                 padding:  0px 25px;
+                 }
+            
+            #top2, #products, .men_photo, #footer, .women_photo, .bottom_photo {
+                display:flex;
+                justify-content:space-around;
+                 }
+            
+           .toplinks{
+               margin: 50px 0px 0px 0px;
+           }
+            
+            .slogan, .quote, .arrow {
+                color: white;
+                font-size: 45px;
+                font-family: 'Source Sans Pro', sans-serif;
+                text-align: center;
+                margin-top: 170px;
+            }
+            
+            .quote {
+                font-size: 18px;
+                margin-top: -5px;
+            }
+            
+            .arrow {
+                margin-top: 300px;
+                padding-bottom: 50px;
+            }
+            
+            #products {
+                background-color: #f5f5dc;
+                font-family: 'Source Sans Pro', sans-serif;
+                font-size: 22px;
+            }
+            
+            input[type="checkbox"] {
+                width: 24px; /*Desired width*/
+                height: 24px; /*Desired height*/
+                border-color: black;
+                 padding: 60px 60px;
+                }
+            
+            .button {
+            background-color: saddlebrown;
+                color: white;
+                font-size: 14px;
+                border-bottom-style: solid;
+                border-radius: 5px;
+              }
+            
+            .group {
+                margin: 20px 165px 0px 0px;
+                 padding: 30px
+              }
+            #butt {
+               margin: 20px 5px 0px 180px;
+                 padding: 30px 
+            }
+
+            .check_group {
+                padding: 0px 10px;
+            }
+            
+           
+            .mename {
+                color: black;
+                font-family: 'Source Sans Pro', sans-serif;
+                font-size: 23px;
+                align-content: center;
+                padding: 10px 0px 0px 100px;
+            }
+            
+            .line {
+                margin-top: -20px;
+            }
+            
+            .womename {
+                color: black;
+                font-family: 'Source Sans Pro', sans-serif;
+                font-size: 23px;
+                align-content: center;
+                padding: 0px 0px 0px 1170px;
+                
+            }
+            
+            .womenline {
+                padding-top: 5px;
+            }
+            .next {
+                font-family: 'Source Sans Pro', sans-serif;
+                font-size: 22px;
+                color: darkkhaki;
+                position: relative;
+                right: -1200px;
+            }
+            
+            .women_next {
+                font-family: 'Source Sans Pro', sans-serif;
+                font-size: 22px;
+                color: darkkhaki;
+                position: relative;
+                right: -90px;
+            }
+            
+             .boxed {
+                  border: 0px solid green;
+                 align-content: center;
+                 font-family: 'Source Sans Pro', sans-serif;
+                font-size: 30px;
+                color: white;
+                text-align: center;
+                 padding: 100px 100px 100px 80px; 
+                 
+}
+            .font {
+                font-family: 'Source Sans Pro', sans-serif;
+                font-size: 22px;
+            }
+             
+            #footer {
+                background-color: #444;
+                color: whitesmoke;
+                font-family: 'Source Sans Pro', sans-serif;
+                
+            }
+            .bottomlink a {
+                color: white;
+            }
+            
+            .farewell {
+                margin-top: 90px;
+                font-size: 25px;
+            }
+            
+            .yolomy_footer {
+                font-size: 30px;
+            }
+            
+            .social, .social div {
+                margin-top: 50px;
+            }
+            
+            .social a, farewell {
+                padding: 10px;
+            }
+            
+            .social font {
+                text-align: center;
+                padding: 20px;
+            }
+            
+            .copyright {
+                margin-bottom: 30px;
+            }
+            
+            .bottomlink {
+                margin-top: 150px;
+            }
+            
+            .bottomlink a {
+                padding: 0px 5px;
+            }
+            
+            .one {
+              background-color: #f5f5dc;
+                background-size: cover;
+                 border: 5px solid dimgrey ;
+                 border-radius: 5px;
+                width: 300px;
+                height: 13opx;
+                }
+            
+            .two {
+                 background-color: #f5f5dc;
+                border: 1px solid azure;
+                border-radius: 10px;
+                width: 300px;
+                height: 13opx;
+                
+                  
+            }
+            
+            .three {
+                 background-color: #f5f5dc;
+                background-size: cover;
+                border: 10px solid white;
+                border-radius: 10px;
+                width: 300px;
+                height: 13opx;
+            }
+            
+            .four {
+                 background-color: #f5f5dc;
+                background-size: cover;
+                border: 10px solid white;
+                border-radius: 10px;
+                width: 300px;
+                height: 13opx;
+            }
+            
+            .five {
+             background-color: #f5f5dc;
+                background-size: cover;
+                border: 10px solid white;
+                border-radius: 10px;
+                width: 300px;
+                height: 13opx;
+            }
+            
+            .six {
+             background-color: #f5f5dc;
+                background-size: cover;
+                 border: 10px solid white;
+                border-radius: 10px;
+                width: 300px;
+                height: 13opx;
+            }
+            
+            .top_photo, .bottom_photo {
+                font-family: 'Source Sans Pro', sans-serif;                             font-size: 25px;
+                
+               
+            }
+            
+            .top_photo {
+                padding-left: 20px;
+            }
+            
+            .great {
+               -webkit-transform: rotate(180deg);
+               -moz-transform: rotate(180deg);
+               -o-transform: rotate(90deg);
+            }
+            
+            .bottom_photo {
+                 margin: 50px 0px 0px 0px;
+                padding: ;
+                
+            }
+                #about {
+                    background: url("../assets/backgrounds/about.jpg");
+                    background-size: cover;
+                    margin-top: 140px;
+                }
+            
+            #tweet {
+                 font-family: 'Source Sans Pro', sans-serif;                             font-size: 22px;
+                color: white;
+                 background-color: #888;
+                align-content: center;
+                text-align: center;
+                padding: 10px 0px;
+            }
+            
+            #tweet img {
+                padding: 0px 10px 0px 0px;
+            }
+            
+            .product_name {
+               padding 0px 10px 0px 0px; 
+                
+            }
+            
+           .women_photo, .men_photo {
+               color: #888;
+           }
+            
+            .one img{
+                padding: 45px 75px;
+            }
+            
+            .two img{
+                padding: 25px 85px;
+            }
+            
+            .three img{
+                padding: 35px 75px;
+            }
+            
+            .four img{
+                padding: 50px 55px;
+            }
+            
+            .five img{
+                padding: 90px 75px;
+            }
+            
+            .six img{
+                padding: 45px 70px;
+            }
+            
